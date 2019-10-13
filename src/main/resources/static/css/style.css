@@ -1,0 +1,88 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url('../img/monImage/(121).jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form .card {
+    width: 444px;
+    height: 427px;
+
+}
+
+.singup-form .card {
+    width: 444px;
+    height: 550px;
+    margin-bottom: 100px;
+}
+
+.listUserTable {
+    margin-top: -550px;
+    margin-bottom: 100px;
+}
+
+/* layout.css Style */
+.formupload {
+    margin-top: -550px;
+    margin-bottom: 100px;
+}
+
+.formupload .upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.formupload .upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+}
+
+.formupload .upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+}
+
+
+.formupload .image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.formupload .image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.formupload .image-preview-input-title {
+    margin-left: 2px;
+}
+
+.formupload .fileinput {
+    margin-top: 12px;
+    margin-right: 5px;
+}
